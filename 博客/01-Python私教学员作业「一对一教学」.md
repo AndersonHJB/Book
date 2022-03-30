@@ -3,7 +3,7 @@
 # 5.3 `remove word(words: tuple[str, ...], word: str) -> tuple[str, ...]`
 Returns a copy of words with word removed, assuming that words contains word exactly once.
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d70a444566be45e780417f3012542082.png)
+![在这里插入图片描述](01-Python私教学员作业「一对一教学」.assets/d70a444566be45e780417f3012542082.png)
 ```python
 # 作业基本要求
 def remove_word(t_words, word) -> tuple:
@@ -41,7 +41,7 @@ Prompts the user for the next guess, reprompting until either a valid guess is e
 这个意思就是从 `vocab.txt` 的范围猜词，然后必须是猜的词必须是六个字母，如果填了不在 `vocab.txt` 里的词就会识别不出来。
 
 ## 5.4.1 Example usage
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fcc98af339294b01b200d6d49d5a424b.png)
+![在这里插入图片描述](01-Python私教学员作业「一对一教学」.assets/fcc98af339294b01b200d6d49d5a424b.png)
 
 ```python
 def load_words(filename: str) -> tuple[str,...]:
@@ -135,7 +135,7 @@ See a1 support.py for constants containing the required square characters.
 
 ## 5.5.1 Example usage
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/66bd8801640e4eb6ab296e77399b972b.png)
+![在这里插入图片描述](01-Python私教学员作业「一对一教学」.assets/66bd8801640e4eb6ab296e77399b972b.png)
 如果 guess 里面有两个字母跟 answer 里面其中一个相同，guess 中有一个正好是在相同位置， 另一个的字母被排除掉变成黑色方块。
 
 ```python
